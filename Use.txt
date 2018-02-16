@@ -1,8 +1,12 @@
 服务端:
 gost -L=http2://:443
-客户端:
 
+客户端:
 gost -L=:8080 -F=http2://Server_ip:443
+
+Chrome Extension:
+SwitchyOmega
+https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt
 
 压缩tar.gz
 apt-get install -y lrzsz
